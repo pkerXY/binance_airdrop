@@ -29,7 +29,7 @@ echo "=== 使用 uv 安装最新稳定 Python （比如 3.12 或 3.13）==="
 uv python install 3.12.3
 
 echo "=== 设置默认 Python 使用 uv 安装的版本 ==="
-uv python pin
+uv python pin 3.12.3
 
 echo
 echo "=== 完成！===
