@@ -15,7 +15,7 @@
 ## 项目结构
 
 ```
-├── bianace_airdrop.py     # 主要监控程序
+├── binance_airdrop.py     # 主要监控程序
 ├── config.py              # 配置文件
 ├── requirements.txt       # Python依赖库
 ├── cron.sh                # 定时任务脚本（Linux）
@@ -34,8 +34,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/pkerXY/bianace_airdrop.git
-cd bianace_airdrop
+git clone https://github.com/pkerXY/binance_airdrop.git
+cd binance_airdrop
 ```
 
 ### 2. 安装uv
@@ -73,7 +73,7 @@ COOKIE = '你的Cookie'
 ### 手动运行
 
 ```bash
-uv python bianace_airdrop.py
+uv python binance_airdrop.py
 ```
 
 ### 设置定时任务（Linux/macOS）
@@ -224,4 +224,4 @@ MIT License
 
 ## 联系方式
 
-- GitHub Issues: [https://github.com/pkerXY/bianace_airdrop/issues](https://github.com/pkerXY/bianace_airdrop/issues)
+- GitHub Issues: [https://github.com/pkerXY/binance_airdrop/issues](https://github.com/pkerXY/binance_airdrop/issues)

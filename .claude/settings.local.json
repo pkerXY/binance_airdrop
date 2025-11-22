@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n完善项目文档和配置\n\n- 优化README.md：增加详细的功能说明、安装步骤、配置说明和常见问题解答\n- 新增requirements.txt：添加项目依赖库列表（requests、serverchan-sdk、pytz）\n- 修复文件名拼写：将bianace_airdrop.py改为binance_airdrop.py\n- 简化配置说明：Cookie配置可选\n- 优化安装步骤：增加uv安装说明\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
