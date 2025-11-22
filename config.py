@@ -1,7 +1,7 @@
 # 空投监控配置文件
 
 # Server酱配置
-SERVERCHAN_KEY = "sctp12664t2e5bt8djdrnfbvy4qjvwfn"
+SERVERCHAN_KEY = "xxx"
 
 # 数据库配置
 DB_FILE = "airdrop_monitor.db"
